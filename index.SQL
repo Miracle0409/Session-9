@@ -1,0 +1,5 @@
+CREATE TABLE uploads (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    image_path VARCHAR(255) NOT NULL
+);
